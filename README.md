@@ -73,7 +73,7 @@ npm run dev
 
 #### 5. Open the app in your browser
 
-Visit [http://localhost:5173](http://localhost:5173) in your browser.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Contributing
 You are welcome to contributions to Flexbox Labs! If you'd like to contribute, please follow these steps:
