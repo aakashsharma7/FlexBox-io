@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 270 270" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <rect />
+    <path id="Rectangle" d="M42 0C46.4189 0 50 3.58112 50 8L50 242C50 246.419 46.4189 250 42 250L8 250C3.58112 250 0 246.419 0 242L0 8C0 3.58112 3.58112 0 8 0L42 0Z" transform="translate(10 10)" />
+    <path id="Rectangle" d="M182 0C186.419 0 190 3.58112 190 8L190 242C190 246.419 186.419 250 182 250L8 250C3.58112 250 0 246.419 0 242L0 8C0 3.58112 3.58112 0 8 0L182 0Z" transform="translate(70 10)" />
+  </g>
+</svg>

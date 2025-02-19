@@ -1,0 +1,114 @@
+.container {
+   padding-top: 1rem;
+}
+
+.form {
+   background: var(--bg-content);
+   padding: 0.5rem;
+   border-radius: 1rem;
+   display: flex;
+   align-items: center;
+   margin-bottom: 1.5rem;
+
+   &:focus-within {
+      box-shadow: 0 0 0 0.25rem var(--bg-content-hover);
+   }
+
+   .input {
+      background-color: transparent;
+      border: none;
+      color: var(--text-primary);
+      padding: 1rem 0;
+      padding-left: 1rem;
+      padding-right: 0.5rem;
+      font-size: 1.5rem;
+      flex: 1;
+      font-family: inherit;
+      font-weight: 800;
+
+      &:focus {
+         outline: none;
+      }
+   }
+
+   .form__btn {
+      margin-left: auto;
+      padding: 1rem;
+      border-radius: 0.8rem;
+      color: #1c1e21;
+      background-color: var(--color-primary);
+      border: 1px solid var(--bg-container);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      gap: 0.5rem;
+      font-family: inherit;
+      font-weight: 800;
+      font-size: 1.4rem;
+      white-space: nowrap;
+
+      &:disabled {
+         background: var(--bg-secondary);
+         color: var(--text-secondary);
+         cursor: not-allowed;
+         opacity: 0.7;
+      }
+
+      svg {
+         display: flex;
+         font-size: 2rem;
+      }
+   }
+}
+
+.list {
+   display: flex;
+   flex-direction: column;
+   gap: 1.5rem;
+   list-style-type: none;
+   margin-bottom: 2rem;
+}
+
+.clear__btn {
+   font-size: 1.5rem;
+   display: flex;
+   align-items: center;
+   gap: 1rem;
+   background-color: var(--red);
+   color: var(--black);
+   border-radius: 0.8rem;
+   padding: 1rem 1.5rem;
+   padding-right: 2rem;
+   font-weight: 700;
+   opacity: 0.9;
+
+   &:hover {
+      opacity: 1;
+   }
+}
+
+.toast {
+   display: flex;
+   gap: 2rem;
+   padding: 0.5rem 0;
+
+   @media (max-width: 528px) {
+      font-size: 1.4rem;
+      gap: 1.5rem;
+   }
+
+   @media (max-width: 380px) {
+      font-size: 1.3rem;
+      gap: 1rem;
+   }
+
+   button {
+      font-weight: 500;
+   }
+
+   .undo {
+      color: var(--color-primary);
+      font-weight: 600;
+   }
+}

@@ -1,0 +1,21 @@
+.pointer {
+   position: absolute !important;
+   top: -2rem;
+   left: -1rem;
+   padding: 1.2rem;
+   background-color: var(--bg-container);
+   border-radius: 5rem;
+   font-size: 2rem;
+   border: 2px solid var(--bg-content-border);
+   box-shadow: 3px 3px 0 0 var(--bg-content-border);
+   cursor: pointer;
+   z-index: 1000;
+
+   @media (max-width: 825px) {
+      display: none;
+   }
+
+   .icon {
+      display: flex;
+   }
+}
